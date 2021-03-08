@@ -1,0 +1,404 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans' 'Bebas Neue';
+}
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+.header {
+	background: url('../img/bg.png') no-repeat center;
+	width: 1438px;
+	margin: 0 auto;
+	height: 768px;
+	font-family: 'Open Sans';
+	color: #fff;
+}
+.header-logo {
+	padding-top: 41px;
+	padding-left: 668px;
+}
+.header-title {
+	font-family: 'Bebas Neue';
+	letter-spacing: 5.71px;
+	font-size: 60px;
+	line-height: 70px;
+	padding-top: 318px;
+	padding-left: 434px;
+}
+.header-subtitle {
+	font-size: 16px;
+	line-height: 22px;
+	padding-left: 526px;
+}
+.header-text {
+	font-size: 11px;
+	line-height: 15px;
+	padding-top: 221px;
+	padding-left: 660px;
+	letter-spacing: 3.7px;
+	padding-bottom: 71px;
+}
+.nav {
+	width: 1438px;
+	height: 65px;
+	border: 1px solid #E6E6E6;
+	padding: 0;
+	width: 1438px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.nav-logo {
+	padding-left: 251px;
+	margin-right: 451px;
+
+}
+.nav ul {
+	display: flex;
+	list-style-type: none;
+}
+.nav ul a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 16px;
+	color: #48555B;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+	font-weight: 600;
+}
+.nav ul a:hover {
+	color: #00A4E5;
+	font-weight: 700px;
+}
+.nav ul li {
+	margin-right: 48px;
+}
+
+
+/***ABOUT***/
+
+
+.about {
+	font-family: 'Open Sans';
+	display: flex;
+}
+.about-title {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	letter-spacing: 2.3px;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 57px;
+}
+.about-title:after {
+	content: "";
+	display: inline-block;
+	width: 50px;
+	color: #00A4E5;
+	border: 1px solid;
+}
+.about-subtitle {
+	font-size: 20px;
+	line-height: 27px;
+	font-weight: bold;
+	padding-top: 80px;
+}
+.color-text {
+	color: #00A4E5;
+}
+.about-text {
+	font-size: 13px;
+	line-height: 23px;
+	padding-top: 30px;
+}
+.about-img .plan, .manage, .deliver {
+	position: absolute;
+	margin-top: -224px;
+}
+.plan {
+	padding-left: 482px;
+}
+.manage {
+	padding-left: 642px;
+}
+.deliver {
+	padding-left: 801px;
+}
+.about-img span {
+	position: absolute;
+	font-size: 24px;
+	color: #FFF;
+	line-height: 29px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+.plan .plan-text, .manage-text, .deliver-text {
+	margin-left: -125px;
+	margin-top: 15px;
+}
+
+
+/***SERVICE***/
+
+.service {
+	font-family: 'Open Sans';
+	color: #48555B;
+}
+
+.container1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 119px;
+}
+.service-title {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+}
+.service-p {
+	font-size: 11px;
+	line-height: 19px;
+	letter-spacing: 0.2px;
+}
+.service-btn {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #00A4E5;
+	width: 150px;
+	height: 40px;
+	border: none;
+}
+.service-title:after {
+	content: "";
+	width: 50px;
+	border: 1px solid #00A4E5;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+
+}
+.services {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+	margin-bottom: 115px;
+}
+.project, .structure, .factory {
+	width: 295px;
+	height: 330px;
+	border: 1px solid #E6E6E6;
+	padding-top: 38px;
+	padding-left: 23px;
+}
+.services h2 {
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #48555B;
+	padding-top: 25px;
+}
+.service p {
+	font-size: 13px;
+	line-height: 23px;
+	color: #48555B;
+	padding-top: 13px;
+	letter-spacing: 0.18px;
+}
+.project, .structure, .factory:not(:last-child) {
+	margin-right: 27px;
+}
+
+
+/***GET IN TOUCH***/
+
+
+.get-in-touch {
+	background: url(../img/git-bg.png) no-repeat center;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+.git-title {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold;
+	letter-spacing: 0.15px;
+	color: #48555B;
+	margin-bottom: 35px;
+	padding-top: 120px;
+}
+.git-btn {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #00A4E5;
+	width: 150px;
+	height: 40px;
+	border: none;
+	margin-bottom: 235px;
+}
+
+
+/***NEWSLETTER***/
+
+
+.container3 {
+	background: #171819;
+	width: 1440px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	font-family: 'Open Sans';
+	align-items: center;
+}
+.newsletter-text {
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 0.84px;
+	color: #FFF;
+	padding-left: 378px;
+}
+.newsletter-input {
+	width: 250px;
+	height: 40px;
+	color: #FFF;
+	border: 1px solid #979797;
+	margin-left: 70px;
+	font-size: 14px;
+	line-height: 19px;
+	color: #48555B;
+	padding-left: 16px;
+}
+.newsletter-btn {
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #00A4E5;
+	width: 150px;
+	height: 40px;
+	border: none;
+}
+
+
+/***FOOTER***/
+
+
+.footer {
+	background: #141A20;
+	width: 1440px;
+	height: 240px;
+	margin: 0 auto;
+	font-family: 'Open Sans';
+	color: #FFF;
+}
+.container4{
+	display: flex;
+}
+.company {
+	padding-left: 249px;
+}
+.footer-title {
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 0.85px;
+	padding-top: 42px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.footer-logo {
+	margin-top: 20px;
+}
+.footer-text {
+	font-size: 11px;
+	line-height: 19px;
+	letter-spacing: 0.85px;
+	margin-top: 16px;
+	font-weight: 400;
+}
+.links-title {
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 0.85px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.links {
+	text-transform: uppercase;
+	font-size: 11px;
+	line-height: 25px;
+	font-weight: 600;
+	display: flex;
+}
+.links a {
+	color: #FFF;
+	text-decoration: none;
+	list-style-type: none;
+}
+.links ul li {
+	list-style-type: none;
+}
+.site-links {
+	width: 76px;
+	height: 125px;
+	padding-left: 71px;
+	padding-top: 42px;
+}
+.faq-links {
+	padding-left: 34px;
+	padding-top: 67px;
+}
+.blog-links {
+	padding-left: 38px;
+	padding-top: 67px;
+}
+.contact {
+	line-height: 16px;
+	letter-spacing: 0.85px;
+	color: #FFF;
+	margin-left: 58px;
+	font-weight: 400; 
+}
+.contact-text {
+	padding-top: 41px;
+	font-size: 11px;
+	font-weight: 400;
+}
+.contact-address {
+	padding-top: 15px;
+	font-size: 11px;
+}
+.contact-object {
+	padding-top: 71px;
+	padding-left: 46px;
+}
+.contact-object img {
+	margin-right: 25px;
+}
+
+
+/***COPYRIGHT***/
+
+
+.copyright {
+	background: #171819;
+	display: flex;
+	height: 60px;
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer-text {
+	font-size: 11px;
+	font-weight: 400;
+	color: #FFF;
+	font-family: 'Open Sans';
+}
